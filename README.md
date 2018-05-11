@@ -1,1 +1,1 @@
-# Prática Eletrônica Digital 1
+# Prática de Eletrônica Digital 1
