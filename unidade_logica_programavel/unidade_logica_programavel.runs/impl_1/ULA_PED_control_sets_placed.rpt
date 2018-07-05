@@ -1,0 +1,82 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Thu Jul  5 18:38:10 2018
+| Host         : ubuntu-VirtualBox running 64-bit Ubuntu 16.04.3 LTS
+| Command      : report_control_sets -verbose -file ULA_PED_control_sets_placed.rpt
+| Design       : ULA_PED
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    77 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              63 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              12 |            6 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+---------------+---------------------------+------------------+----------------+
+|      Clock Signal      | Enable Signal |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++------------------------+---------------+---------------------------+------------------+----------------+
+|  error_reg_i_2_n_0     |               |                           |                1 |              1 |
+|  hex2_reg[3]_i_1_n_0   |               | hex2_reg[0]_i_2_n_0       |                1 |              1 |
+|  F_reg[2]/G0           |               |                           |                1 |              1 |
+|  F_reg[1]/G0           |               |                           |                1 |              1 |
+|  F_reg[0]/G0           |               |                           |                1 |              1 |
+|  F_reg[3]/G0           |               |                           |                1 |              1 |
+|  hex2_reg[3]/G0        |               |                           |                1 |              1 |
+|  MUX_CLK               |               | cathode_select[1]_i_1_n_0 |                1 |              2 |
+|  MUX_CLK               |               | current_segment[1]        |                1 |              2 |
+|  hex4_reg[0]_i_1_n_0   |               | error                     |                2 |              3 |
+|                        |               | error                     |                1 |              4 |
+|  temp8a_reg[3]_i_1_n_0 |               |                           |                3 |              8 |
+|  temp8_reg[7]_i_2_n_0  |               |                           |                2 |              8 |
+|  MUX_CLK               |               |                           |                2 |              9 |
+|  Runs_reg[3]_i_2_n_0   |               |                           |                8 |             16 |
+|  clk_IBUF_BUFG         |               |                           |                4 |             16 |
++------------------------+---------------+---------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     7 |
+| 2      |                     2 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

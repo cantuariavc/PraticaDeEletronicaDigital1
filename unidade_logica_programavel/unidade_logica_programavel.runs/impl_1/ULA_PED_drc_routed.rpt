@@ -1,0 +1,105 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Thu Jul  5 18:38:29 2018
+| Host         : ubuntu-VirtualBox running 64-bit Ubuntu 16.04.3 LTS
+| Command      : report_drc -file ULA_PED_drc_routed.rpt -pb ULA_PED_drc_routed.pb -rpx ULA_PED_drc_routed.rpx
+| Design       : ULA_PED
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 12
++----------+----------+-----------------------------------------------------+------------+
+| Rule     | Severity | Description                                         | Violations |
++----------+----------+-----------------------------------------------------+------------+
+| CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
+| PDRC-153 | Warning  | Gated clock check                                   | 11         |
++----------+----------+-----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net F_reg[0]/G0 is a gated clock net sourced by a combinational pin F_reg[0]/L3_2/O, cell F_reg[0]/L3_2 (in F_reg[0] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net F_reg[1]/G0 is a gated clock net sourced by a combinational pin F_reg[1]/L3_2/O, cell F_reg[1]/L3_2 (in F_reg[1] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net F_reg[2]/G0 is a gated clock net sourced by a combinational pin F_reg[2]/L3_2/O, cell F_reg[2]/L3_2 (in F_reg[2] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net F_reg[3]/G0 is a gated clock net sourced by a combinational pin F_reg[3]/L3_2/O, cell F_reg[3]/L3_2 (in F_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net Runs_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin Runs_reg[3]_i_2/O, cell Runs_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net error_reg_i_2_n_0 is a gated clock net sourced by a combinational pin error_reg_i_2/O, cell error_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net hex2_reg[3]/G0 is a gated clock net sourced by a combinational pin hex2_reg[3]/L3_2/O, cell hex2_reg[3]/L3_2 (in hex2_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net hex2_reg[3]_i_1_n_0 is a gated clock net sourced by a combinational pin hex2_reg[3]_i_1/O, cell hex2_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net hex4_reg[0]_i_1_n_0 is a gated clock net sourced by a combinational pin hex4_reg[0]_i_1/O, cell hex4_reg[0]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net temp8_reg[7]_i_2_n_0 is a gated clock net sourced by a combinational pin temp8_reg[7]_i_2/O, cell temp8_reg[7]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net temp8a_reg[3]_i_1_n_0 is a gated clock net sourced by a combinational pin temp8a_reg[3]_i_1/O, cell temp8a_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

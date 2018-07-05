@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jul  5 18:36:53 2018
+# Process ID: 20123
+# Current directory: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1
+# Command line: vivado -log ULA_PED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ULA_PED.tcl
+# Log file: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1/ULA_PED.vds
+# Journal file: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ULA_PED.tcl -notrace

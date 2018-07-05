@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jul  5 18:36:53 2018
+# Process ID: 20123
+# Current directory: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1
+# Command line: vivado -log ULA_PED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ULA_PED.tcl
+# Log file: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1/ULA_PED.vds
+# Journal file: /home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ULA_PED.tcl -notrace
+Command: synth_design -top ULA_PED -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20270 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1091.559 ; gain = 161.086 ; free physical = 752 ; free virtual = 2532
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ULA_PED' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:45]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:67]
+WARNING: [Synth 8-614] signal 'temp8a' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'temp8b' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'temp8' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'Auns' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'Buns' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'Quns' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+WARNING: [Synth 8-614] signal 'Runs' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:77]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:204]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:209]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:214]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:219]
+WARNING: [Synth 8-614] signal 'error' is read in the process but is not in the sensitivity list [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:200]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:270]
+INFO: [Synth 8-226] default block is never used [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:282]
+INFO: [Synth 8-256] done synthesizing module 'ULA_PED' (1#1) [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1132.027 ; gain = 201.555 ; free physical = 710 ; free virtual = 2490
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.027 ; gain = 201.555 ; free physical = 710 ; free virtual = 2490
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/constrs_1/imports/ubuntu/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/constrs_1/imports/ubuntu/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/constrs_1/imports/ubuntu/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ULA_PED_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ULA_PED_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1435.422 ; gain = 0.000 ; free physical = 542 ; free virtual = 2323
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 542 ; free virtual = 2323
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 542 ; free virtual = 2323
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 542 ; free virtual = 2323
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:80]
+INFO: [Synth 8-5544] ROM "hex2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cathode_select" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit_pattern_array" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'hex4_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:220]
+WARNING: [Synth 8-327] inferring latch for variable 'hex3_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:215]
+WARNING: [Synth 8-327] inferring latch for variable 'hex2_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:210]
+WARNING: [Synth 8-327] inferring latch for variable 'hex1_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:205]
+WARNING: [Synth 8-327] inferring latch for variable 'F_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:81]
+WARNING: [Synth 8-327] inferring latch for variable 'error_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:82]
+WARNING: [Synth 8-327] inferring latch for variable 'temp8_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:125]
+WARNING: [Synth 8-327] inferring latch for variable 'Runs_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:160]
+WARNING: [Synth 8-327] inferring latch for variable 'Quns_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:159]
+WARNING: [Synth 8-327] inferring latch for variable 'temp8a_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:117]
+WARNING: [Synth 8-327] inferring latch for variable 'temp8b_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'Buns_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:157]
+WARNING: [Synth 8-327] inferring latch for variable 'Auns_reg' [/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.srcs/sources_1/new/ula.vhd:156]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 527 ; free virtual = 2307
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 17    
+	   8 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ULA_PED 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 17    
+	   8 Input      4 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   4 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'hex4_reg[1]' (LDP) to 'hex4_reg[2]'
+INFO: [Synth 8-3886] merging instance 'hex2_reg[1]' (LDCP) to 'hex2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'hex3_reg[1]' (LDP) to 'hex4_reg[2]'
+INFO: [Synth 8-3886] merging instance 'hex4_reg[2]' (LDP) to 'hex4_reg[3]'
+INFO: [Synth 8-3886] merging instance 'hex2_reg[2]' (LDCP) to 'hex2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'hex3_reg[2]' (LDP) to 'hex4_reg[3]'
+INFO: [Synth 8-3886] merging instance 'hex4_reg[3]' (LDP) to 'hex3_reg[3]'
+WARNING: [Synth 8-3332] Sequential element (count_reg[16]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[17]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[18]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[19]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[20]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[21]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[22]) is unused and will be removed from module ULA_PED.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 510 ; free virtual = 2291
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 481 ; free virtual = 2263
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (count_reg[16]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[17]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[18]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[19]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[20]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[21]) is unused and will be removed from module ULA_PED.
+WARNING: [Synth 8-3332] Sequential element (count_reg[22]) is unused and will be removed from module ULA_PED.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 481 ; free virtual = 2262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 455 ; free virtual = 2237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 456 ; free virtual = 2237
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    18|
+|4     |LUT2   |     7|
+|5     |LUT3   |     4|
+|6     |LUT4   |    31|
+|7     |LUT5   |    28|
+|8     |LUT6   |    66|
+|9     |MUXF7  |     3|
+|10    |MUXF8  |     1|
+|11    |FDRE   |    25|
+|12    |FDSE   |     4|
+|13    |LD     |    33|
+|14    |LDC    |     5|
+|15    |LDCP   |     5|
+|16    |LDP    |     3|
+|17    |IBUF   |    15|
+|18    |OBUF   |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   268|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.422 ; gain = 504.949 ; free physical = 455 ; free virtual = 2237
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1435.422 ; gain = 112.469 ; free physical = 455 ; free virtual = 2237
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1435.430 ; gain = 504.957 ; free physical = 455 ; free virtual = 2237
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 69 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 46 instances were transformed.
+  LD => LDCE: 33 instances
+  LDC => LDCE: 5 instances
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 5 instances
+  LDP => LDPE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1435.430 ; gain = 432.453 ; free physical = 457 ; free virtual = 2238
+INFO: [Common 17-1381] The checkpoint '/home/ubuntu/pratica-de-eletronica-digital-1/unidade_logica_programavel/unidade_logica_programavel.runs/synth_1/ULA_PED.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1459.434 ; gain = 0.000 ; free physical = 456 ; free virtual = 2237
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  5 18:37:34 2018...
